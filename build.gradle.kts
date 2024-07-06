@@ -22,8 +22,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("org.springframework.boot:spring-boot-starter-tomcat")
 	implementation("org.springframework.boot:spring-boot-starter-security")
-	implementation("org.springframework.security:spring-security-jwt:1.1.1.RELEASE")
-	implementation("io.jsonwebtoken:jjwt:0.12.6")
+
+	implementation ("io.jsonwebtoken:jjwt:0.9.1")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 
 	implementation ("org.hibernate:hibernate-core:6.5.2.Final") // A
