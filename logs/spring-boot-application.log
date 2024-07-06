@@ -1,0 +1,111 @@
+2024-07-06T14:16:48.874-05:00  INFO 24120 --- [ejemplo] [restartedMain] com.example.ejemplo.EjemploApplication   : Starting EjemploApplication using Java 21.0.2 with PID 24120 (C:\Users\jorge\Downloads\ejemplo\build\classes\java\main started by jorge in C:\Users\jorge\Downloads\ejemplo)
+2024-07-06T14:16:48.876-05:00 DEBUG 24120 --- [ejemplo] [restartedMain] com.example.ejemplo.EjemploApplication   : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-06T14:16:48.876-05:00  INFO 24120 --- [ejemplo] [restartedMain] com.example.ejemplo.EjemploApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T14:16:49.265-05:00  INFO 24120 --- [ejemplo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-06T14:16:49.280-05:00  INFO 24120 --- [ejemplo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2024-07-06T14:16:49.517-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-06T14:16:49.519-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T14:16:49.519-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T14:16:49.539-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T14:16:49.539-05:00  INFO 24120 --- [ejemplo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 661 ms
+2024-07-06T14:16:49.552-05:00  INFO 24120 --- [ejemplo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-07-06T14:16:49.573-05:00  INFO 24120 --- [ejemplo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21ab52fa
+2024-07-06T14:16:49.573-05:00  INFO 24120 --- [ejemplo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-07-06T14:16:49.573-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/mydatabase'
+2024-07-06T14:16:49.621-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-06T14:16:49.624-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-06T14:16:49.636-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-06T14:16:49.638-05:00  WARN 24120 --- [ejemplo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-06T14:16:49.638-05:00  WARN 24120 --- [ejemplo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-06T14:16:49.675-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-06T14:16:49.727-05:00  INFO 24120 --- [ejemplo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T14:16:49.804-05:00  WARN 24120 --- [ejemplo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-06T14:16:49.829-05:00 DEBUG 24120 --- [ejemplo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-07-06T14:16:49.864-05:00 DEBUG 24120 --- [ejemplo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-07-06T14:16:49.878-05:00 DEBUG 24120 --- [ejemplo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-07-06T14:16:49.884-05:00 DEBUG 24120 --- [ejemplo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-07-06T14:16:49.945-05:00  INFO 24120 --- [ejemplo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-06T14:16:49.980-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-06T14:16:49.992-05:00  INFO 24120 --- [ejemplo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-06T14:16:49.997-05:00  INFO 24120 --- [ejemplo] [restartedMain] com.example.ejemplo.EjemploApplication   : Started EjemploApplication in 1.307 seconds (process running for 331.492)
+2024-07-06T14:16:50.001-05:00  INFO 24120 --- [ejemplo] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-07-06T14:17:21.515-05:00  INFO 24120 --- [ejemplo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T14:17:21.516-05:00  INFO 24120 --- [ejemplo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-07-06T14:17:21.520-05:00  INFO 24120 --- [ejemplo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-07-06T14:17:37.944-05:00  INFO 22432 --- [ejemplo] [restartedMain] com.example.ejemplo.EjemploApplication   : Starting EjemploApplication using Java 21.0.2 with PID 22432 (C:\Users\jorge\Downloads\ejemplo\build\classes\java\main started by jorge in C:\Users\jorge\Downloads\ejemplo)
+2024-07-06T14:17:37.946-05:00 DEBUG 22432 --- [ejemplo] [restartedMain] com.example.ejemplo.EjemploApplication   : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-07-06T14:17:37.947-05:00  INFO 22432 --- [ejemplo] [restartedMain] com.example.ejemplo.EjemploApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-07-06T14:17:38.000-05:00  INFO 22432 --- [ejemplo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-06T14:17:38.000-05:00  INFO 22432 --- [ejemplo] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-06T14:17:38.910-05:00  INFO 22432 --- [ejemplo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-06T14:17:38.983-05:00  INFO 22432 --- [ejemplo] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-07-06T14:17:39.678-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-07-06T14:17:39.694-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-06T14:17:39.694-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-06T14:17:39.748-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-06T14:17:39.749-05:00  INFO 22432 --- [ejemplo] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1748 ms
+2024-07-06T14:17:39.787-05:00  INFO 22432 --- [ejemplo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-06T14:17:39.972-05:00  INFO 22432 --- [ejemplo] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@278d916b
+2024-07-06T14:17:39.975-05:00  INFO 22432 --- [ejemplo] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-06T14:17:39.982-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/mydatabase'
+2024-07-06T14:17:40.176-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-06T14:17:40.286-05:00  INFO 22432 --- [ejemplo] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-06T14:17:40.337-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-06T14:17:40.770-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-06T14:17:40.830-05:00  WARN 22432 --- [ejemplo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-06T14:17:40.832-05:00  WARN 22432 --- [ejemplo] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-07-06T14:17:41.780-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-06T14:17:41.908-05:00  INFO 22432 --- [ejemplo] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T14:17:42.194-05:00  WARN 22432 --- [ejemplo] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-06T14:17:42.288-05:00 DEBUG 22432 --- [ejemplo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2024-07-06T14:17:42.365-05:00 DEBUG 22432 --- [ejemplo] [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-07-06T14:17:42.409-05:00 DEBUG 22432 --- [ejemplo] [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-07-06T14:17:42.456-05:00 DEBUG 22432 --- [ejemplo] [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-07-06T14:17:42.675-05:00  INFO 22432 --- [ejemplo] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-07-06T14:17:42.852-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-06T14:17:42.901-05:00  INFO 22432 --- [ejemplo] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-07-06T14:17:42.909-05:00  INFO 22432 --- [ejemplo] [restartedMain] com.example.ejemplo.EjemploApplication   : Started EjemploApplication in 5.46 seconds (process running for 6.399)
+2024-07-06T14:18:19.966-05:00  INFO 22432 --- [ejemplo] [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-06T14:18:19.966-05:00  INFO 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-06T14:18:19.967-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-07-06T14:18:19.967-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-07-06T14:18:19.967-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-07-06T14:18:19.969-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5c531c25
+2024-07-06T14:18:19.970-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@27f8c25f
+2024-07-06T14:18:19.970-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-07-06T14:18:19.971-05:00  INFO 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-07-06T14:18:20.034-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/registro?continue", parameters={masked}
+2024-07-06T14:18:20.036-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.ejemplo.controller.UserController#showForm(Model)
+2024-07-06T14:18:20.083-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-07-06T14:18:20.408-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-06T14:18:20.454-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/styles.css", parameters={}
+2024-07-06T14:18:20.455-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-06T14:18:20.545-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-06T14:18:24.634-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/registro", parameters={}
+2024-07-06T14:18:24.635-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.ejemplo.controller.UserController#showForm(Model)
+2024-07-06T14:18:24.638-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-07-06T14:18:24.645-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-06T14:18:24.680-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/styles.css", parameters={}
+2024-07-06T14:18:24.682-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-06T14:18:24.686-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-06T14:18:35.658-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/registro", parameters={masked}
+2024-07-06T14:18:35.658-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.ejemplo.controller.UserController#submitForm(User)
+2024-07-06T14:18:35.786-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-6] o.s.web.servlet.view.RedirectView        : View name 'redirect:', model {}
+2024-07-06T14:18:35.788-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2024-07-06T14:18:35.796-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/registro", parameters={}
+2024-07-06T14:18:35.796-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.ejemplo.controller.UserController#showForm(Model)
+2024-07-06T14:18:35.797-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-07-06T14:18:35.802-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-06T14:18:35.864-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/styles.css", parameters={}
+2024-07-06T14:18:35.864-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-06T14:18:35.869-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-06T14:34:45.898-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/registro", parameters={}
+2024-07-06T14:34:45.943-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.ejemplo.controller.UserController#showForm(Model)
+2024-07-06T14:34:46.081-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7]
+2024-07-06T14:34:46.179-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-06T14:34:46.225-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/styles.css", parameters={}
+2024-07-06T14:34:46.228-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-07-06T14:34:46.256-05:00 DEBUG 22432 --- [ejemplo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-07-06T14:48:10.705-05:00  INFO 22432 --- [ejemplo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-06T14:48:11.219-05:00  INFO 22432 --- [ejemplo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-06T14:48:11.333-05:00  INFO 22432 --- [ejemplo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
